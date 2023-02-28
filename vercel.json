@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "jobify",
+    "name": "proshop",
     "builds": [
         {
             "src": "server.js",
@@ -10,7 +10,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/server.js"
+            "dest": "backend/server.js"
         }
     ]
 }
